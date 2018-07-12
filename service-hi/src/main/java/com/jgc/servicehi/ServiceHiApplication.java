@@ -48,8 +48,4 @@ public class ServiceHiApplication {
         return new AlwaysSampler();
     }
 
-//    @Bean
-//    public Sampler defaultSampler() {
-//        return Sampler.ALWAYS_SAMPLE;
-//    }
 }
