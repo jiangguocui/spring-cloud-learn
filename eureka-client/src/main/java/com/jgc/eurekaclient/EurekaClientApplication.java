@@ -21,7 +21,9 @@ public class EurekaClientApplication {
     String port;
 
     @RequestMapping("/hi")
-    public String home(@RequestParam String name) {
+    public String home(@RequestParam String name) throws InterruptedException {
+        Thread.sleep(5000L);
+
         return "hi " + name + ",i am from port:" + port;
     }
 }
