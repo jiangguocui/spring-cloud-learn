@@ -41,6 +41,7 @@
         <module>turbine-amqp</module>
         <module>api-gateway</module>
         <module>jaeger-demo</module>
+        <module>stream-hello</module>
     </modules>
 
     <dependencies>
